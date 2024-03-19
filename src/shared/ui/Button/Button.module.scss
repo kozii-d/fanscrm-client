@@ -1,0 +1,31 @@
+.button {
+  cursor: pointer;
+  color: white;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 6px;
+  font: 16px / 24px sans-serif;
+
+  &:hover {
+    opacity: 0.8;
+    fill-opacity: 0.8;
+    stroke-opacity: 0.8;
+  }
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.outline {
+  border: 1px solid #585858;
+  color: #000;
+  background: none;
+}
+
+
+.primary {
+  background: #405cf5;
+  color: white;
+  border: none;
+}
